@@ -1,0 +1,17 @@
+// إضافة أخبار إلى الصفحة
+const newsList = document.getElementById('news-list');
+
+const news = [
+    { title: 'خبر 1', content: 'محتوى الخبر 1' },
+    { title: 'خبر 2', content: 'محتوى الخبر 2' },
+    { title: 'خبر 3', content: 'محتوى الخبر 3' },
+];
+
+news.forEach((newsItem) => {
+    const newsElement = document.createElement('div');
+    newsElement.innerHTML = `
+        <h3>${newsItem.title}</h3>
+        <p>${newsItem.content}</p>
+    `;
+    newsList.appendChild(newsElement);
+});

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع أخبار</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>موقع أخبار</h1>
+        <nav>
+            <ul>
+                <li><a href="               <nav>
+                    <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="contact.html">تواصل معنا</a></li>
+                    </ul>
+                    </nav>
+
+                    </ul>
+                    </nav>
+                    </header>
+                    <main>
+                    <section id="news">
+                    <h2>أخبار</h2>
+                    <div id="news-list"></div>
+                    </section>
+                    </main>
+                    <script src="script.js"></script>
+                    </body>
+                    </html>
